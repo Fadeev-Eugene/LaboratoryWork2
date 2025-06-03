@@ -1,0 +1,47 @@
+name: C++ CI with SFML
+
+on: [push, pull_request]
+
+jobs:
+  build-and-test:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v4
+
+    - name: Install dependencies
+      run: |
+        sudo apt-get update
+        sudo apt-get install -y \
+          build-essential \
+          cmake \
+          libsqlite3-dev \
+          libsfml-dev \
+          googletest
+        
+        # Установка дополнительных компонентов SFML
+        sudo apt-get install -y \
+          libsfml-graphics-dev \
+          libsfml-window-dev \
+          libsfml-system-dev \
+          libsfml-audio-dev
+
+    - name: Build Google Test
+      run: |
+        cd /usr/src/googletest
+        sudo cmake CMakeLists.txt
+        sudo make
+        sudo cp lib/*.a /usr/lib
+
+    - name: Build project
+      run: |
+        make
+        ls -R app  # Проверка содержимого папки app
+
+    - name: Verify assets
+      run: |
+        echo "Checking copied assets:"
+        [ -f "app/Nights.db" ] && echo "Database found" || echo "Database missing"
+        [ -d "app/img" ] && echo "Image directory found" || echo "Image directory missing"
+        [ -f "app/fnaf" ] && echo "Executable found" || echo "Executable missing"
+
