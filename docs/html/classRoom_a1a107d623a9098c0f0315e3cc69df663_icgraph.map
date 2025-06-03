@@ -1,0 +1,23 @@
+<map id="Room::getConnectedRooms" name="Room::getConnectedRooms">
+<area shape="rect" id="node1" title=" " alt="" coords="928,208,1131,235"/>
+<area shape="rect" id="node2" href="$classAnimatronic.html#a08682696a4d3e8cbe1b04b1090b20aec" title=" " alt="" coords="759,5,880,32"/>
+<area shape="rect" id="node5" href="$classBonnie.html#aa7f039237d23b3033d0ad4aee06d781b" title=" " alt="" coords="776,56,863,83"/>
+<area shape="rect" id="node6" href="$classChica.html#ac87fd3c85d1528961e084789c24e7e1a" title=" " alt="" coords="780,107,859,133"/>
+<area shape="rect" id="node7" href="$classFoxy.html#a8b0b0a4835b355c2c54c99c8e1504dce" title=" " alt="" coords="783,157,855,184"/>
+<area shape="rect" id="node9" href="$classFreddy.html#a8b0a44161884dfcb91f90803d3a127ca" title=" " alt="" coords="777,208,862,235"/>
+<area shape="rect" id="node10" href="$classG__Freddy.html#a630d48506f2acf8113d4b1f45d8423ed" title=" " alt="" coords="768,259,871,285"/>
+<area shape="rect" id="node11" href="$classDoor.html#a48d247ad81623d1ca9ec11d19510827c" title=" " alt="" coords="772,309,867,336"/>
+<area shape="rect" id="node15" href="$classDoor.html#a141b8ac2ab99e1d7a218cdfb52004937" title=" " alt="" coords="773,360,866,387"/>
+<area shape="rect" id="node21" href="$test_8cpp.html#af4caa8149ccfd1e35fe33ed8a978402f" title=" " alt="" coords="792,411,847,437"/>
+<area shape="rect" id="node3" href="$classAnimatronic.html#ada2d58b5bb30c5f1cac81f39177f488d" title=" " alt="" coords="527,5,674,32"/>
+<area shape="rect" id="node4" href="$classAnimatronic.html#a673e658e688b4d12356810fa8665ffdc" title=" " alt="" coords="288,5,443,32"/>
+<area shape="rect" id="node8" href="$classFoxy.html#a09918327bb019fa40a04617e38407f19" title=" " alt="" coords="552,157,649,184"/>
+<area shape="rect" id="node12" href="$classSecurityRoom.html#a69ddef75244ae8c34718e18428964e06" title=" " alt="" coords="495,259,706,285"/>
+<area shape="rect" id="node14" href="$classSecurityRoom.html#a29e9b738d6841ec470ec667f1f5f3d21" title=" " alt="" coords="491,309,711,336"/>
+<area shape="rect" id="node13" href="$classPlayer.html#ab4509d725f34e61bec6a0acc1168d623" title=" " alt="" coords="292,335,439,361"/>
+<area shape="rect" id="node16" href="$classSecurityRoom.html#ad798187e57f410b4510720ad0692df49" title=" " alt="" coords="497,360,705,387"/>
+<area shape="rect" id="node20" href="$classSecurityRoom.html#a0c24bca84f3018ae90b4d99b99a37da3" title=" " alt="" coords="491,411,710,437"/>
+<area shape="rect" id="node17" href="$classPlayer.html#a82c3476f3e65a4e2ac6bcd040771bdd4" title=" " alt="" coords="307,397,423,424"/>
+<area shape="rect" id="node18" href="$classCore.html#a90dd5da2a90e0b5ca3434bcfb05c6dff" title=" " alt="" coords="135,397,240,424"/>
+<area shape="rect" id="node19" href="$classCore.html#adcc93b561dfefacfe2bcbd60604ea7a6" title=" " alt="" coords="5,397,87,424"/>
+</map>

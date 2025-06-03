@@ -1,0 +1,12 @@
+General description of the system. 
+
+The system is a game based on “Five Nights at Freddy's.” The game is played through the interaction of the user (player) with the terminal, where the gameplay takes place. 
+
+Use cases. 
+After launching the program, the player must select the night they want to play by entering a number from 1 to 5 into the console. In case of incorrect input, the game will ask to repeat the input until the correct value is entered. Next, input buffering is disabled, i.e., any key will be read from the console without pressing enter. Then the main gameplay begins. The player will see a timer showing the current time, the remaining energy charge, the status of the doors, and the status of the room selected on the cameras. You can change the room you are viewing by pressing one of the following keys: “q w e r a s d z x c” (in any case). The rest of the keys (except for those mentioned below) will be ignored. Pressing the “[” and “]” keys will close (or open if they were already closed) the left and right doors, respectively. Pressing the “{” and “}” keys will turn on (or off) the left and right door lights, respectively. The game continues until 6:00 a.m. or until an animatronic enters the player's room. 
+
+Testing plan: 
+1) Testing with Google Test
+2) Testing functional blocks that depend on pseudo-random values
+3) Testing the entire program with unexpected inputs
+4) Checking for leaks

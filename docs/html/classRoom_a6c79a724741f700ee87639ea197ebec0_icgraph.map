@@ -1,0 +1,9 @@
+<map id="Room::addAnimatronic" name="Room::addAnimatronic">
+<area shape="rect" id="node1" title=" " alt="" coords="656,42,827,69"/>
+<area shape="rect" id="node2" href="$classAnimatronicManager.html#a4a42de1e2022fb5b75c99d782437edf2" title=" " alt="" coords="436,5,595,47"/>
+<area shape="rect" id="node4" href="$classMoveManager.html#a6c2c91f3140759f6720c6d87c7fe7001" title=" " alt="" coords="423,71,608,98"/>
+<area shape="rect" id="node3" href="$classAnimatronicManager.html#ab0970e4fbfa2f405b7d155ac2b7f698d" title=" " alt="" coords="208,5,375,47"/>
+<area shape="rect" id="node5" href="$classAnimatronic.html#ada2d58b5bb30c5f1cac81f39177f488d" title=" " alt="" coords="218,71,365,98"/>
+<area shape="rect" id="node7" href="$classFoxy.html#a09918327bb019fa40a04617e38407f19" title=" " alt="" coords="243,122,340,149"/>
+<area shape="rect" id="node6" href="$classAnimatronic.html#a673e658e688b4d12356810fa8665ffdc" title=" " alt="" coords="5,71,160,98"/>
+</map>
