@@ -1,0 +1,8 @@
+<map id="Room::getAnimatronics" name="Room::getAnimatronics">
+<area shape="rect" id="node1" title=" " alt="" coords="501,56,676,83"/>
+<area shape="rect" id="node2" href="$classCore.html#a03c980ff906d0a076ffc6ce175f9c14c" title=" " alt="" coords="293,5,449,32"/>
+<area shape="rect" id="node5" href="$classCore.html#a21123c55db34a8d4076b6b3874fb4135" title=" " alt="" coords="288,56,453,83"/>
+<area shape="rect" id="node6" href="$classPlayer.html#a82c3476f3e65a4e2ac6bcd040771bdd4" title=" " alt="" coords="313,107,429,133"/>
+<area shape="rect" id="node3" href="$classCore.html#a90dd5da2a90e0b5ca3434bcfb05c6dff" title=" " alt="" coords="135,56,240,83"/>
+<area shape="rect" id="node4" href="$classCore.html#adcc93b561dfefacfe2bcbd60604ea7a6" title=" " alt="" coords="5,56,87,83"/>
+</map>

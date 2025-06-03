@@ -1,0 +1,10 @@
+<map id="Animatronic::update" name="Animatronic::update">
+<area shape="rect" id="node1" title=" " alt="" coords="5,56,160,83"/>
+<area shape="rect" id="node2" href="$classAnimatronic.html#ada2d58b5bb30c5f1cac81f39177f488d" title=" " alt="" coords="208,56,355,83"/>
+<area shape="rect" id="node3" href="$classAnimatronic.html#a08682696a4d3e8cbe1b04b1090b20aec" title=" " alt="" coords="435,5,556,32"/>
+<area shape="rect" id="node5" href="$classMoveManager.html#a6c2c91f3140759f6720c6d87c7fe7001" title=" " alt="" coords="403,56,588,83"/>
+<area shape="rect" id="node8" href="$classAnimatronic.html#a8d8cf72bf6ed6f0e308063fbbe379f3e" title=" " alt="" coords="421,107,570,133"/>
+<area shape="rect" id="node4" href="$classRoom.html#a1a107d623a9098c0f0315e3cc69df663" title=" " alt="" coords="636,5,839,32"/>
+<area shape="rect" id="node6" href="$classRoom.html#a6c79a724741f700ee87639ea197ebec0" title=" " alt="" coords="652,56,823,83"/>
+<area shape="rect" id="node7" href="$classRoom.html#a1ecc6d9bf87b4064944ef898d029b107" title=" " alt="" coords="639,107,836,133"/>
+</map>
