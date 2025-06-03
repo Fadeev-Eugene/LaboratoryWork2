@@ -1,0 +1,10 @@
+<map id="Foxy::move" name="Foxy::move">
+<area shape="rect" id="node1" title=" " alt="" coords="5,107,103,133"/>
+<area shape="rect" id="node2" href="$classFoxy.html#a8b0b0a4835b355c2c54c99c8e1504dce" title=" " alt="" coords="207,56,279,83"/>
+<area shape="rect" id="node5" href="$classMoveManager.html#a6c2c91f3140759f6720c6d87c7fe7001" title=" " alt="" coords="151,107,336,133"/>
+<area shape="rect" id="node8" href="$classAnimatronic.html#a8d8cf72bf6ed6f0e308063fbbe379f3e" title=" " alt="" coords="169,157,318,184"/>
+<area shape="rect" id="node3" href="$classRoom.html#a1a107d623a9098c0f0315e3cc69df663" title=" " alt="" coords="384,5,587,32"/>
+<area shape="rect" id="node4" href="$classRoom.html#ae6a3be5861b657a2cbbada8e67ab7fde" title=" " alt="" coords="421,56,549,83"/>
+<area shape="rect" id="node6" href="$classRoom.html#a6c79a724741f700ee87639ea197ebec0" title=" " alt="" coords="400,107,571,133"/>
+<area shape="rect" id="node7" href="$classRoom.html#a1ecc6d9bf87b4064944ef898d029b107" title=" " alt="" coords="387,157,584,184"/>
+</map>

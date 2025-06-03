@@ -1,0 +1,5 @@
+<map id="Door" name="Door">
+<area shape="rect" id="node1" title=" " alt="" coords="156,307,237,413"/>
+<area shape="rect" id="node2" href="$classRoom.html" title=" " alt="" coords="5,5,188,229"/>
+<area shape="rect" id="node3" href="$classRoomManager.html" title=" " alt="" coords="213,42,383,193"/>
+</map>
