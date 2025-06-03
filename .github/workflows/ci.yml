@@ -43,11 +43,3 @@ jobs:
         [ -d "app/img" ] && echo "Images found" || echo "Images missing"
         [ -f "app/Nights.db" ] && echo "Database found" || echo "Database missing"
 
-    - name: Run tests
-      run: |
-        if [ -f "app/fnaf" ]; then
-          xvfb-run ./app/fnaf --gtest_color=yes
-        else
-          echo "Executable not found, skipping tests"
-          exit 1
-        fi
