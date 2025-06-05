@@ -3,24 +3,18 @@ name: C++ CI
 on: [push, pull_request]
 
 jobs:
-  build-and-test:
+  build:
     runs-on: ubuntu-latest
     steps:
-    - name: Checkout repository
-      uses: actions/checkout@v4
-
+    - uses: actions/checkout@v4
+      
     - name: Install dependencies
-      run: |
-        sudo apt-get update
-        sudo apt-get install -y build-essential cmake libsqlite3-dev googletest
-
-    - name: Build Google Test
-      run: |
-        cd /usr/src/googletest
-        sudo cmake CMakeLists.txt
-        sudo make
-        sudo cp lib/*.a /usr/lib
-
+      run: sudo apt-get update && sudo apt-get install -y libsqlite3-dev
+      
     - name: Build project
       run: make
-
+      
+    - name: Verify artifacts
+      run: |
+        [ -f app/fnaf ] || exit 1
+        [ -f app/Nights.db ] || exit 1
