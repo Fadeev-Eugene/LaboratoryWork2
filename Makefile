@@ -1,5 +1,5 @@
 CC = g++
-CFLAGS = -g -Wall -Iinclude -std=c++17 -MMD -MP
+CFLAGS = -g -Wall -Iinclude -std=c++17 -MMD -MP -I/usr/include
 LDFLAGS = -pthread
 LDLIBS = -lsqlite3 -lstdc++fs
 
