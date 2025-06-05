@@ -1,0 +1,20 @@
+<map id="include/Core.h" name="include/Core.h">
+<area shape="rect" id="node1" title=" " alt="" coords="316,7,431,33"/>
+<area shape="rect" id="node2" href="$Room_8h.html" title=" " alt="" coords="380,231,452,257"/>
+<area shape="rect" id="node6" href="$RoomManager_8h.html" title=" " alt="" coords="5,231,133,257"/>
+<area shape="rect" id="node7" href="$AnimatronicManager_8h.html" title=" " alt="" coords="873,81,1042,108"/>
+<area shape="rect" id="node8" href="$DBworker_8h.html" title=" " alt="" coords="808,156,904,183"/>
+<area shape="rect" id="node12" href="$MoveManager_8h.html" title=" " alt="" coords="209,81,335,108"/>
+<area shape="rect" id="node13" href="$Player_8h.html" title=" " alt="" coords="96,81,171,108"/>
+<area shape="rect" id="node16" href="$FrameManager_8h.html" title=" " alt="" coords="580,81,711,108"/>
+<area shape="rect" id="node3" title=" " alt="" coords="256,305,371,332"/>
+<area shape="rect" id="node4" title=" " alt="" coords="529,380,588,407"/>
+<area shape="rect" id="node5" href="$Animatronic_8h.html" title=" " alt="" coords="502,305,615,332"/>
+<area shape="rect" id="node9" title=" " alt="" coords="816,231,896,257"/>
+<area shape="rect" id="node10" title=" " alt="" coords="713,231,791,257"/>
+<area shape="rect" id="node11" title=" " alt="" coords="626,231,689,257"/>
+<area shape="rect" id="node14" href="$SecurityRoom_8h.html" title=" " alt="" coords="59,156,184,183"/>
+<area shape="rect" id="node15" href="$Door_8h.html" title=" " alt="" coords="151,305,215,332"/>
+<area shape="rect" id="node17" title=" " alt="" coords="411,156,557,183"/>
+<area shape="rect" id="node18" title=" " alt="" coords="683,156,733,183"/>
+</map>

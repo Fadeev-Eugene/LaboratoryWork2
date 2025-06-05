@@ -1,0 +1,11 @@
+<map id="Core" name="Core">
+<area shape="rect" id="node1" title=" " alt="" coords="311,1049,468,1317"/>
+<area shape="rect" id="node2" href="$classFrameManager.html" title=" " alt="" coords="189,755,360,935"/>
+<area shape="rect" id="node3" href="$classRoom.html" title=" " alt="" coords="366,5,549,229"/>
+<area shape="rect" id="node8" href="$classSecurityRoom.html" title=" " alt="" coords="415,491,564,641"/>
+<area shape="rect" id="node9" href="$classDoor.html" title=" " alt="" coords="527,307,609,413"/>
+<area shape="rect" id="node4" href="$classDBworker.html" title=" " alt="" coords="123,498,339,634"/>
+<area shape="rect" id="node5" href="$classRoomManager.html" title=" " alt="" coords="620,42,791,193"/>
+<area shape="rect" id="node6" href="$classMoveManager.html" title=" " alt="" coords="559,792,710,899"/>
+<area shape="rect" id="node7" href="$classPlayer.html" title=" " alt="" coords="385,704,535,987"/>
+</map>

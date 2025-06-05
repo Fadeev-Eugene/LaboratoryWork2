@@ -1,0 +1,45 @@
+name: C++ CI with SFML
+
+on: [push, pull_request]
+
+jobs:
+  build-and-test:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v4
+
+    - name: Install dependencies
+      run: |
+        sudo apt-get update
+        sudo apt-get install -y \
+          build-essential \
+          cmake \
+          libsqlite3-dev \
+          libsfml-dev \
+          googletest \
+          libxrandr-dev \
+          libfreetype6-dev \
+          libopenal-dev \
+          libflac-dev \
+          libvorbis-dev
+
+    - name: Build Google Test
+      run: |
+        cd /usr/src/googletest
+        sudo cmake .
+        sudo make
+        sudo make install
+
+    - name: Build project
+      run: make
+
+    - name: Verify installation
+      run: |
+        # Проверка SFML
+        pkg-config --modversion sfml-system || echo "SFML check failed"
+        echo ""
+        # Проверка ресурсов
+        [ -d "app/img" ] && echo "Images found" || echo "Images missing"
+        [ -f "app/Nights.db" ] && echo "Database found" || echo "Database missing"
+
