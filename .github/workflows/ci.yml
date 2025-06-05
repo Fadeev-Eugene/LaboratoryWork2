@@ -1,6 +1,6 @@
 name: C++ CI
 
-on: [push, pull_request, clone]
+on: [push, pull_request]
 
 jobs:
   build-and-test:
