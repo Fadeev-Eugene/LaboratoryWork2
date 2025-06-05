@@ -1,52 +1,45 @@
-CC = g++
-CFLAGS = -g -Wall -Iinclude -std=c++17 -MMD -MP
-LDFLAGS = -pthread
-LDLIBS = -lsfml-graphics -lsfml-window -lsfml-system -lsqlite3 -lstdc++fs
+CC := g++
+CXXFLAGS := -g -Wall -Iinclude -std=c++17 -MMD -MP
+LDFLAGS := -pthread
+LDLIBS := -lsfml-graphics -lsfml-window -lsfml-system -lsqlite3 -lstdc++fs
 
-SRC_DIR = src
-BUILD_DIR = build
-TARGET_DIR = app
-TARGET = $(TARGET_DIR)/fnaf
+SRC_DIR := src
+BUILD_DIR := build
+TARGET_DIR := app
+TARGET := $(TARGET_DIR)/fnaf
+IMG_DIR := $(SRC_DIR)/img
+TARGET_IMG_DIR := $(TARGET_DIR)/img
 
-SRC_FILES = $(wildcard $(SRC_DIR)/*.cpp)
-OBJ_FILES = $(patsubst $(SRC_DIR)/%.cpp,$(BUILD_DIR)/%.o,$(SRC_FILES))
-DEP_FILES = $(patsubst $(SRC_DIR)/%.cpp,$(BUILD_DIR)/%.d,$(SRC_FILES))
+SRCS := $(wildcard $(SRC_DIR)/*.cpp)
+OBJS := $(patsubst $(SRC_DIR)/%.cpp,$(BUILD_DIR)/%.o,$(SRCS))
+DEPS := $(OBJS:.o=.d)
 
-# Добавлена переменная для папки с изображениями
-IMG_DIR = $(SRC_DIR)/img
-TARGET_IMG_DIR = $(TARGET_DIR)/img
+# Создаем директории при необходимости
+$(shell mkdir -p $(BUILD_DIR) $(TARGET_DIR) $(TARGET_IMG_DIR))
 
-$(shell mkdir -p $(BUILD_DIR) $(TARGET_DIR))
+.PHONY: all install-deps clean
 
-# Добавлена цель img_copy в зависимости all
-all: $(TARGET) db_copy img_copy
+all: install-deps $(TARGET)
 
-$(TARGET): $(OBJ_FILES)
+$(TARGET): $(OBJS)
 	$(CC) $(LDFLAGS) -o $@ $^ $(LDLIBS)
+	@cp -f $(SRC_DIR)/Nights.db $(TARGET_DIR)/Nights.db 2>/dev/null || true
+	@if [ -d "$(IMG_DIR)" ]; then \
+		cp -r $(IMG_DIR)/* $(TARGET_IMG_DIR)/ 2>/dev/null || true; \
+		echo "Images copied to $(TARGET_IMG_DIR)"; \
+	fi
 
 $(BUILD_DIR)/%.o: $(SRC_DIR)/%.cpp
-	$(CC) $(CFLAGS) -c -o $@ $<
+	$(CC) $(CXXFLAGS) -c $< -o $@
 
-db_copy:
-	@cp -f $(SRC_DIR)/Nights.db $(TARGET_DIR)/Nights.db 2>/dev/null || true
+install-deps:
+	@if [ ! -d "/usr/include/SFML" ]; then \
+		echo "Installing SFML and SQLite dependencies..."; \
+		sudo apt-get update >/dev/null 2>&1; \
+		sudo apt-get install -y libsfml-dev libsqlite3-dev >/dev/null 2>&1; \
+	fi
 
-# Новая цель для копирования изображений
-img_copy:
-	@if [ -d "$(IMG_DIR)" ]; then \
-    	echo "Copying images directory..."; \
-    	mkdir -p $(TARGET_IMG_DIR); \
-    	cp -r $(IMG_DIR)/* $(TARGET_IMG_DIR)/; \
-  	else \
-    	echo "Image directory $(IMG_DIR) not found!"; \
-    	exit 1; \
-  	fi
-
-# Обновленная цель clean для удаления изображений
 clean:
-	rm -rf $(BUILD_DIR)/*.o $(BUILD_DIR)/*.d $(TARGET) \
-	$(TARGET_DIR)/Nights.db \
-	$(TARGET_IMG_DIR)  # Добавлено удаление папки с изображениями
+	rm -rf $(BUILD_DIR) $(TARGET_DIR)
 
--include $(DEP_FILES)
-
-.PHONY: all clean db_copy img_copy  # Добавлена img_copy в PHONY
+-include $(DEPS)
