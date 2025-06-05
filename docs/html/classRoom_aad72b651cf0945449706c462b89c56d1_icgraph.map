@@ -1,0 +1,13 @@
+<map id="Room::addRoom" name="Room::addRoom">
+<area shape="rect" id="node1" title=" " alt="" coords="1288,81,1419,108"/>
+<area shape="rect" id="node2" href="$classRoomManager.html#ac1927712bb6066c03acf231abe4ef2ec" title=" " alt="" coords="1017,56,1240,83"/>
+<area shape="rect" id="node11" href="$test_8cpp.html#af4caa8149ccfd1e35fe33ed8a978402f" title=" " alt="" coords="1101,107,1156,133"/>
+<area shape="rect" id="node3" href="$classDoor.html#a141b8ac2ab99e1d7a218cdfb52004937" title=" " alt="" coords="813,31,906,57"/>
+<area shape="rect" id="node10" href="$classRoomManager.html#a397e33c1d7fe642c1a262263b010d84e" title=" " alt="" coords="749,81,969,108"/>
+<area shape="rect" id="node4" href="$classSecurityRoom.html#ad798187e57f410b4510720ad0692df49" title=" " alt="" coords="488,5,696,32"/>
+<area shape="rect" id="node9" href="$classSecurityRoom.html#a0c24bca84f3018ae90b4d99b99a37da3" title=" " alt="" coords="483,56,701,83"/>
+<area shape="rect" id="node5" href="$classPlayer.html#a82c3476f3e65a4e2ac6bcd040771bdd4" title=" " alt="" coords="303,5,419,32"/>
+<area shape="rect" id="node8" href="$classPlayer.html#ab4509d725f34e61bec6a0acc1168d623" title=" " alt="" coords="288,56,435,83"/>
+<area shape="rect" id="node6" href="$classCore.html#a90dd5da2a90e0b5ca3434bcfb05c6dff" title=" " alt="" coords="135,5,240,32"/>
+<area shape="rect" id="node7" href="$classCore.html#adcc93b561dfefacfe2bcbd60604ea7a6" title=" " alt="" coords="5,5,87,32"/>
+</map>

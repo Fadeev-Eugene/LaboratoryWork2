@@ -1,0 +1,7 @@
+<map id="RoomManager::removeConnection" name="RoomManager::removeConnection">
+<area shape="rect" id="node1" title=" " alt="" coords="611,31,859,57"/>
+<area shape="rect" id="node2" href="$classDoor.html#a48d247ad81623d1ca9ec11d19510827c" title=" " alt="" coords="468,31,563,57"/>
+<area shape="rect" id="node3" href="$classSecurityRoom.html#a69ddef75244ae8c34718e18428964e06" title=" " alt="" coords="205,5,415,32"/>
+<area shape="rect" id="node5" href="$classSecurityRoom.html#a29e9b738d6841ec470ec667f1f5f3d21" title=" " alt="" coords="200,56,420,83"/>
+<area shape="rect" id="node4" href="$classPlayer.html#ab4509d725f34e61bec6a0acc1168d623" title=" " alt="" coords="5,31,152,57"/>
+</map>

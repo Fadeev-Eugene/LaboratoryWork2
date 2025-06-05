@@ -1,0 +1,13 @@
+<map id="include/Core.h" name="include/Core.h">
+<area shape="rect" id="node1" title=" " alt="" coords="264,5,379,32"/>
+<area shape="rect" id="node2" href="$Room_8h.html" title=" " alt="" coords="272,229,344,256"/>
+<area shape="rect" id="node6" href="$RoomManager_8h.html" title=" " alt="" coords="5,229,133,256"/>
+<area shape="rect" id="node7" href="$AnimatronicManager_8h.html" title=" " alt="" coords="439,229,609,256"/>
+<area shape="rect" id="node8" href="$MoveManager_8h.html" title=" " alt="" coords="359,155,486,181"/>
+<area shape="rect" id="node9" href="$Player_8h.html" title=" " alt="" coords="171,80,245,107"/>
+<area shape="rect" id="node3" title=" " alt="" coords="193,304,308,331"/>
+<area shape="rect" id="node4" title=" " alt="" coords="360,379,419,405"/>
+<area shape="rect" id="node5" href="$Animatronic_8h.html" title=" " alt="" coords="333,304,446,331"/>
+<area shape="rect" id="node10" href="$SecurityRoom_8h.html" title=" " alt="" coords="108,155,233,181"/>
+<area shape="rect" id="node11" href="$Door_8h.html" title=" " alt="" coords="105,304,169,331"/>
+</map>
