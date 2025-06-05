@@ -14,7 +14,7 @@ DEP_FILES = $(patsubst $(SRC_DIR)/%.cpp,$(BUILD_DIR)/%.d,$(SRC_FILES))
 
 $(shell mkdir -p $(BUILD_DIR) $(TARGET_DIR))
 
-all: $(TARGET) db_copy install-deps
+all: install-deps $(TARGET) db_copy
 
 $(TARGET): $(OBJ_FILES)
 	$(CC) $(LDFLAGS) -o $@ $^ $(LDLIBS)
